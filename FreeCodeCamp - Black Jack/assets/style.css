@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(246,247,0,1) 100%);
+    text-align: center;
+    padding: 40px 100px;
+}
+
+h1{
+    font-size: 68px;
+    font-weight: 700;
+}
+
+#message-el{
+    font-size: 46px;
+    font-style: italic;
+}
+
+p{
+    font-size: 40px;
+    margin-block: 40px;
+    font-weight: 500;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 32px;
+    font-weight: 600;
+    border: 3px solid darkred;
+    border-radius: 20px;
+    background-color: gold;
+    cursor: pointer;
+    width: 300px;
+    margin: 10px auto;
+    display: block;
+}
+
+button:hover{
+    background-color: crimson;
+    color: #fff;
+    transition: 250ms ease-in-out;
+}
+
+button:active{
+    padding: 12px 22px;
+    transition: 0ms;
+}
